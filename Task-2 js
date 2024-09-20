@@ -1,0 +1,40 @@
+document.addEventListener('DOMContentLoaded', () => {
+  const taskInput = document.getElementById('taskInput');
+  const addTaskBtn = document.getElementById('addTaskBtn');
+  const taskList = document.getElementById('taskList');
+
+  // Function to add a task
+  function addTask() {
+    const taskText = taskInput.value;
+    
+    if (taskText === '') {
+      alert('Please enter a task.');
+      return;
+    }
+
+    // Create a new list item
+    const listItem = document.createElement('li');
+    listItem.innerHTML = ${taskText} <button>Delete</button>;
+
+    // Add task to the list
+    taskList.appendChild(listItem);
+
+    // Clear input
+    taskInput.value = '';
+
+    // Add delete functionality
+    listItem.querySelector('button').addEventListener('click', () => {
+      taskList.removeChild(listItem);
+    });
+  }
+
+  // Add task on button click
+  addTaskBtn.addEventListener('click', addTask);
+
+  // Add task on pressing Enter
+  taskInput.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') {
+      addTask();
+    }
+  });
+});
