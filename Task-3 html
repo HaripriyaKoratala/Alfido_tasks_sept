@@ -1,1 +1,94 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Blog Template</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="blog-header">
+    <div class="container">
+      <h1>My Awesome Blog</h1>
+      <nav class="blog-nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Section -->
+  <main class="blog-main container">
+    <!-- Featured Post -->
+    <section class="featured-post">
+      <article>
+        <img src="https://images.app.goo.gl/AUDcsTAYmFJRRo5F7" alt="Featured Post">
+        <h2>butterfly</h2>
+        <p>Aesthetic butterfly background, pink sparkling sky design vector.</p>
+        <a href="#" class="btn">https://www.rawpixel.com/image/4213060/illustration-vector-aesthetic-background-cute</a>
+      </article>
+    </section>
+
+    <!-- Blog Posts and Sidebar -->
+    <div class="content">
+      <!-- Blog Posts List -->
+      <section class="blog-posts">
+        <article>
+          <h3>Blog Post 1</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.</p>
+          <a href="#">Read More</a>
+        </article>
+        <article>
+          <h3>Blog Post 2</h3>
+          <p>Suspendisse potenti. Nulla fringilla nisi ac felis aliquam posuere.</p>
+          <a href="#">Read More</a>
+        </article>
+        <article>
+          <h3>Blog Post 3</h3>
+          <p>Curabitur non neque at nisi consectetur fermentum a vitae leo.</p>
+          <a href="#">Read More</a>
+        </article>
+      </section>
+
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="categories">
+          <h3>Categories</h3>
+          <ul>
+            <li><a href="#">Technology</a></li>
+            <li><a href="#">Travel</a></li>
+            <li><a href="#">Food</a></li>
+            <li><a href="#">Lifestyle</a></li>
+          </ul>
+        </div>
+
+        <div class="recent-posts">
+          <h3>Recent Posts</h3>
+          <ul>
+            <li><a href="#">Post A</a></li>
+            <li><a href="#">Post B</a></li>
+            <li><a href="#">Post C</a></li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="blog-footer">
+    <div class="container">
+      <p>&copy; 2024 My Awesome Blog | Follow us on: 
+        <a href="#">Twitter</a>, 
+        <a href="#">Facebook</a>, 
+        <a href="#">Instagram</a>
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
