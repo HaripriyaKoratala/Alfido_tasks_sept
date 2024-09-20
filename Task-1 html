@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vandhana.K - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap for layout (optional) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #3498db;">
+        <a class="navbar-brand" href="#">Your Name</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Introduction Section -->
+    <section id="home" class="container text-center my-5" style="background-color: #f5f7fa; padding: 40px; border-radius: 10px;">
+        <img src="images/img.jpg" alt="Vandhana.K" class="img-fluid rounded-circle" width="150">
+        <h1 style="color: #3498db;">Bonjour</h1>
+        <p style="color: #2c3e50;">Welcome to my personal portfolio. I'm a software developer with experience in AI & ML, cloud computing, and more!</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container my-5">
+        <h2 class="text-center" style="color: #3498db;">Projects</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card" style="border: none;">
+                    <img src="images/1.jpg" class="card-img-top" alt="Project 1">
+                    <div class="card-body" style="background-color: #f5f7fa;">
+                        <h5 class="card-title" style="color: #e74c3c;">Image recognition from social media</h5>
+                        <p class="card-text" style="color: #2c3e50;">Uses machine learning to automatically detect and classify images from social media platforms for content analysis and trend tracking.</p>
+                        <a href="#" class="btn btn-primary" style="background-color: #3498db; border: none;">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="border: none;">
+                    <img src="images/2.jpg" class="card-img-top" alt="Project 2">
+                    <div class="card-body" style="background-color: #f5f7fa;">
+                        <h5 class="card-title" style="color: #e74c3c;">Court side Intelligence: Leveraging ML in Tennis Score prediction using CNN</h5>
+                        <p class="card-text" style="color: #2c3e50;">Uses Convolutional Neural Networks (CNN) to analyze match data and predict tennis outcomes. The model enhances decision-making for players and coaches by providing accurate score forecasts.</p>
+                        <a href="#" class="btn btn-primary" style="background-color: #3498db; border: none;">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="container my-5" style="background-color: #3498db; padding: 40px; border-radius: 10px;">
+        <h2 class="text-center" style="color: #fff;">Skills</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <h4 style="color: #f5f7fa;">Programming Languages</h4>
+                <ul style="color: #fff;">
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                    <li>C++</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h4 style="color: #f5f7fa;">Web Development</h4>
+                <ul style="color: #fff;">
+                    <li>HTML/CSS</li>
+                    <li>Bootstrap</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h4 style="color: #f5f7fa;">AI & ML Tools</h4>
+                <ul style="color: #fff;">
+                    <li>TensorFlow</li>
+                    <li>PyTorch</li>
+                    <li>Scikit-learn</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container my-5">
+        <h2 class="text-center" style="color: #3498db;">Contact Me</h2>
+        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+            <div class="form-group">
+                <label for="name" style="color: #2c3e50;">Name</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email" style="color: #2c3e50;">Email</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message" style="color: #2c3e50;">Message</label>
+                <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="background-color: #e74c3c; border: none;">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-4" style="background-color: #3498db; color: #fff;">
+        <p>&copy; 2024 Haripriya Koratala. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
